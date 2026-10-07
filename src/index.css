@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+    background-color: #05020a;
+    color: #f3e8ff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Syne', 'Outfit', sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom purple glass and ambient styling */
+.purple-glow {
+  box-shadow: 0 0 30px -5px rgba(147, 51, 234, 0.15);
+}
+
+.purple-glow-sm {
+  box-shadow: 0 0 15px -3px rgba(168, 85, 247, 0.2);
+}
+
+.purple-glass {
+  background: rgba(18, 7, 33, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(168, 85, 247, 0.15);
+}
+
+.purple-border-subtle {
+  border-color: rgba(147, 51, 234, 0.2);
+}
+
+/* Custom scrollbars in deep purple */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090314;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e1053;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4c1d95;
+}
