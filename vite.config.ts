@@ -6,9 +6,9 @@ import { defineConfig } from 'vite';
 export default defineConfig(() => {
   return {
     base: '/proof-carrying-data-analyst/',
-    
+
     plugins: [react(), tailwindcss()],
-    
+
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
