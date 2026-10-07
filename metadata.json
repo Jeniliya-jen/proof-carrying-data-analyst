@@ -1,0 +1,6 @@
+{
+  "name": "Proof-Carrying Data Analyst (HNX26PSI08)",
+  "description": "Agentic GenAI data analyst with re-runnable verification code for every number, trap detection, multi-table reconciliation, and refusal protocols for unanswerable questions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
